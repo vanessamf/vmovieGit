@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+		<script type="text/javascript">
+ 
+        $(document).ready(function () {
+ 
+            $('#wrapper').load('include/header.html');
+            $('#main-left').load('include/main-left.html');
+            $('#main-right').load('include/main-right.html');
+ 			$('#footer').load('include/footer.html');
+//          $('.configFoot').load('homeFooter.html');
+ 
+        });
+ 
+    </script>
+	</head>
+	<body>
+		<div id="wrapper">
+			
+		</div>
+		<div class="main-container">
+			<div id="main-left"></div>
+			<div id="main-right">
+				
+			</div>
+			<div class="clearfloat"></div>
+		</div>
+		
+		<div id="footer"></div>
+		<!--<include src="include/header.html"></include>-->
+	</body>
+</html>
